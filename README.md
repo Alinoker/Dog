@@ -1,3 +1,7 @@
+# A quizz that will identify the dog breed that best suits your lifestyle
+It will only take up a few minutes
+This project is a collaborative effort involving @patle0 and @gabboas
+
 # Project Development Guide
 
 ## Index
@@ -72,3 +76,4 @@ Ask for help if whatever you're working on is taking more than 30 minutes, usual
 https://developer.chrome.com/docs/devtools/overview
 
 - Use browser developer tools for debugging and performance testing.
+
