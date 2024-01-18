@@ -1,0 +1,9 @@
+.QUIZLINK {
+  border: solid 0.02em #8c6239;
+  background-color: #2f1313;
+  color: #e5cd6c;
+  padding: 10px 20px;
+  font-size: 2rem;
+  border-radius: 20rem;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
