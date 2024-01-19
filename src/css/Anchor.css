@@ -1,0 +1,9 @@
+.quiz-link {
+  border: solid 0.02em rgb(140 98 57);
+  background-color: rgb(47 19 19);
+  color: rgb(229 205 108);
+  padding: 10px 20px;
+  font-size: 2rem;
+  border-radius: 20rem;
+  box-shadow: 4px 4px 8px rgba(0 0 0 20%);
+}
