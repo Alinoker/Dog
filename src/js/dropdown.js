@@ -1,13 +1,13 @@
-breedlistbutton.onclick = dropdown;
+button.onclick = dropdown;
 
-function dropdown(){
+function dropdown() {
   let dogspace = document.getElementById(divfieldset);
-  if(divfieldset.style.display === "none" || divfieldset.style.display === ""){
+  if (
+    divfieldset.style.display === "none" ||
+    divfieldset.style.display === ""
+  ) {
     divfieldset.style.display = "block";
-  }
-  else{
+  } else {
     divfieldset.style.display = "none";
   }
-
 }
-
