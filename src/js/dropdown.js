@@ -1,13 +1,16 @@
+const button = document.getElementById("buttonlist")
 button.onclick = dropdown;
+console.log("buttonlist")
 
 function dropdown() {
-  let dogspace = document.getElementById(divfieldset);
+  const dogspace = document.getElementById("breedlistfieldset");
   if (
-    divfieldset.style.display === "none" ||
-    divfieldset.style.display === ""
-  ) {
-    divfieldset.style.display = "block";
+    dogspace.style.display === "none" ||
+    dogspace.style.display === ""
+  ) { console.log("hello world")
+    dogspace.style.display = "block";
   } else {
-    divfieldset.style.display = "none";
+    dogspace.style.display = "none";
   }
+  console.log("buttonlist")
 }

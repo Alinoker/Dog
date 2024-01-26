@@ -1,3 +1,15 @@
 fieldset {
   margin: 20px;
 }
+
+#breedlistfieldset{
+  display: none;
+}
+
+#quizstart{
+  display: none;
+}
+
+#question2{
+  display: none;
+}
