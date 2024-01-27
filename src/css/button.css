@@ -22,3 +22,15 @@
     border-radius: 20rem;
     box-shadow: 4px 4px 8px rgba(0 0 0 20%);
   }
+
+  .nextbutton{
+    display:block;
+    width:fit-content;
+    align-self: center;
+  }
+
+  .previousbutton{
+    display:block;
+    width:fit-content;
+    align-self: center;    
+  }

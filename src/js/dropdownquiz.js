@@ -6,7 +6,7 @@ let fieldsetquiz1 = document.getElementById("quizstart");
 
 function start() {
   if (fieldsetquiz1.style.display === "none" ||    fieldsetquiz1.style.display === "") {
-    fieldsetquiz1.style.display = "block";
+    fieldsetquiz1.style.display = "flex";
   } else {
     fieldsetquiz1.style.display = "none";
   }
@@ -19,11 +19,11 @@ let question2 = document.getElementById("question2");
 
 function q1next() {
   if (question2.style.display === "none" || question2.style.display === "") {
-    question2.style.display = "block";
+    question2.style.display = "flex";
     fieldsetquiz1.style.display = "none";
   } else {
     question2.style.display = "none";
-    fieldsetquiz1.style.display = "block";
+    fieldsetquiz1.style.display = "flex";
   }
 }
 //second question//
@@ -34,11 +34,11 @@ buttonprevious2.onclick = q2previous;
 
 function q2previous(){
   if (question3.style.display === "none" ||    question3.style.display === "") {
-    fieldsetquiz1.style.display = "block";
+    fieldsetquiz1.style.display = "flex";
     question2.style.display = "none";
   } else {
     fieldsetquiz1.style.display = "none";
-    question2.style.display = "block"
+    question2.style.display = "flex"
   }
 }
 
@@ -46,10 +46,10 @@ let question3 = document.getElementById("question3");
 
 function q2next() {
   if (question3.style.display === "none" || question3.style.display === "") {
-    question3.style.display = "block";
+    question3.style.display = "flex";
     question2.style.display = "none";
   } else {
     question3.style.display = "none";
-    question2.style.display = "block";
+    question2.style.display = "flex";
   }
 }

@@ -8,12 +8,15 @@ fieldset {
 
 #quizstart{
   display: none;
+  flex-direction: column;  
 }
 
 #question2{
   display: none;
+  flex-direction: column;  
 }
 
 #question3{
   display: none;
+  flex-direction: column;  
 }
