@@ -21,15 +21,22 @@
       <div class="button-container">
         <button id="buttonquiz">Find out my best match</button>
       </div>
-
+      <form method="post" action="/">
       <fieldset id="quizstart">                  
-          <h2>Question 1</h2>          
-          <button id="next1">Next Question</button>         
+          <h2><legend>Are you a inside house person or outside person?</legend></h2>
+          <label><input type="radio"/>Inside person.</label>
+          <label><input type="radio"/>Outside person.</label>         
+          <button id="next1" name="nextbutton">Next Question</button>         
       </fieldset>
       <fieldset id="question2">          
           <h2>Question 2</h2>          
-          <button id="previous2">Previous Question</button> <button id="next2">Next Question</button>       
+          <button id="previous2" name="previousbutton">Previous Question</button> <button id="next2" name="nextbutton">Next Question</button>       
       </fieldset>
+      <fieldset id="question3">
+        <h2>Question 3</h2>
+        <button id="previous3" name="previousbutton">Previous Question</button> <button id="next3" name="nextbutton">Next Question</button>
+      </fieldset>
+      </form>
     </main>
     <footer></footer>
     <script src="js/dropdownquiz.js"></script>
