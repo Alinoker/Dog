@@ -3,13 +3,13 @@ const button = document.getElementById("buttonquiz");
 button.onclick = start;
 
 let fieldsetquiz1 = document.getElementById("quizstart");
+let startq = document.getElementById("idform")
 
 function start() {
-  if (fieldsetquiz1.style.display === "none" ||    fieldsetquiz1.style.display === "") {
+  if (startq.style.display === "none" ||    startq.style.display === "") {
+    startq.style.display = "block";
     fieldsetquiz1.style.display = "flex";
-  } else {
-    fieldsetquiz1.style.display = "none";
-  }
+  } 
 }
 //first question//
 const buttonnext1 = document.getElementById("next1");
@@ -53,3 +53,5 @@ function q2next() {
     question2.style.display = "flex";
   }
 }
+
+//question 3//

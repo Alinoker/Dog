@@ -34,3 +34,7 @@
     width:fit-content;
     align-self: center;    
   }
+
+  .quizbuttondiv button{
+    margin: 25px 15px;
+  }
