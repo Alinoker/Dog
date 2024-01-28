@@ -21,24 +21,21 @@
       <div class="button-container">
         <button id="buttonquiz">Find out my best match</button>
       </div>
-      <form method="post" action="/">
-      <fieldset id="quizstart">                  
-          <h2><legend>Are you a inside house person or outside person?</legend></h2>
-          <label><input type="radio"/>Inside person.</label>
-          <label><input type="radio"/>Outside person.</label>         
-          <button id="next1" name="nextbutton">Next Question</button>         
-      </fieldset>
-      <fieldset id="question2">          
-          <h2>Question 2</h2>          
-          <button id="previous2" name="previousbutton">Previous Question</button> <button id="next2" name="nextbutton">Next Question</button>       
-      </fieldset>
-      <fieldset id="question3">
-        <h2>Question 3</h2>
-        <button id="previous3" name="previousbutton">Previous Question</button> <button id="next3" name="nextbutton">Next Question</button>
-      </fieldset>
+      <form id="questionnaire"method="get" action="/">
+        <template id="question__template">
+            <fieldset class="question__container">                  
+                <h2><legend class="question__title"></legend></h2>
+                <div class="question__navigation">
+                    <button type="button">Previous question</button>
+                    <button type="button">Next question</button>
+                </div>
+                <!-- The label with input inside it, which will be cloned for each option -->
+                <label class="question__label"><input type="radio" class="question__input">Option Text</label>
+            </fieldset>
+        </template>
       </form>
     </main>
     <footer></footer>
-    <script src="js/dropdownquiz.js"></script>
+    <script src="js/questions.js"></script>
   </body>
 </html>
