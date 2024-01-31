@@ -1,4 +1,5 @@
 const questions = [
+
   {
     title: 'Are you a inside house person or outside person?',
     options: ['Indoors person', 'Outdoors person'],
@@ -9,6 +10,7 @@ const questions = [
     options: ['Yes', 'No'],
     name: 'is-energetic',
   },
+  
   {
     title: "What's the size of your house?",
     options: ['Big', 'Medium', 'Small'],
