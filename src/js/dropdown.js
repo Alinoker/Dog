@@ -7,6 +7,6 @@ function dropdown() {
   if (dogspace.style.display === "none" || dogspace.style.display === "") {
     dogspace.style.display = "block";
   } else {
-    dogspace.style.display = "none";
+    dogspace.style.display = "no''ne";
   }
 }
