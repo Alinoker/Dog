@@ -1,0 +1,40 @@
+#buttonquiz {
+    border: solid 0.02em rgb(140 98 57);
+    background-color: rgb(47 19 19);
+    color: rgb(229 205 108);
+    padding: 10px 20px;
+    font-size: 2rem;
+    border-radius: 20rem;
+    box-shadow: 4px 4px 8px rgba(0 0 0 20%);
+  }
+
+  .button-container {
+    text-align: center;
+    margin-top: 20%;
+  }
+
+  #buttonlist {
+    border: solid 0.02em rgb(140 98 57);
+    background-color: rgb(47 19 19);
+    color: rgb(229 205 108);
+    padding: 10px 20px;
+    font-size: 2rem;
+    border-radius: 20rem;
+    box-shadow: 4px 4px 8px rgba(0 0 0 20%);
+  }
+
+  .nextbutton{
+    display:block;
+    width:fit-content;
+    align-self: center;
+  }
+
+  .previousbutton{
+    display:block;
+    width:fit-content;
+    align-self: center;    
+  }
+
+  .quizbuttondiv button{
+    margin: 25px 15px;
+  }

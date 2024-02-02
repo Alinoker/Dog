@@ -10,25 +10,51 @@
     <header>
       <nav>
         <ul>
-          <li><a href="Dog-breed-quiz">Home</a></li>
-          <li><a>Dog breed list</a></li>
-          <li><a>Questionare</a></li>
-          <li><a>About us</a></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="dogbreedlist.html">Dog breed list</a></li>
+          <li><a href="questionnaire.html">Questionnaire</a></li>
+          <li><a href="aboutus.html">About us</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <div class="anchor-container">
-        <a name="quiz" class="quiz-link">Find out my best match</a>
+      <div class="button-container">
+        <button id="buttonquiz">Find out my best match</button>
       </div>
-      <fieldset>
-        <div id="quizSection">
-          <!-- Your quiz content goes here -->
-          <h2>Quiz Section</h2>
-          <!-- Add your quiz questions and options here -->
-        </div>
-      </fieldset>
+      <form method="get" action="/" id="idform">
+        <fieldset id="quizstart">
+          <h2>
+            <legend>1 - Are you a inside house person or outside person?</legend>
+          </h2>
+          <div class="radiodiv">
+          <label><input type="radio" id="inside" />Inside person.</label>
+          <label><input type="radio" id="outside" />Outside person.</label>
+          </div>
+          <div class="quizbuttondiv"><button id="next1" class="nextbutton" type="button">
+            Next Question
+          </button></div>
+        </fieldset>
+        <fieldset id="question2">
+          <h2>Question 2</h2>
+          <div class="quizbuttondiv"><button id="previous2" class="previousbutton" type="button">
+            Previous Question
+          </button>
+          <button id="next2" class="nextbutton" type="button">
+            Next Question
+          </button></div>
+        </fieldset>
+        <fieldset id="question3">
+          <h2>Question 3</h2>
+          <div class="quizbuttondiv"><button id="previous3" class="previousbutton" type="button">
+            Previous Question
+          </button>
+          <button id="next3" class="nextbutton" type="button">
+            Next Question
+          </button></div>
+        </fieldset>
+      </form>
     </main>
     <footer></footer>
+    <script src="js/dropdownquiz.js"></script>
   </body>
 </html>
