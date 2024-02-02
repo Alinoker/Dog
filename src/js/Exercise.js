@@ -1,19 +1,19 @@
 const dogbreed = [
   {
-    name: "Irish wolfhound",
-    description: ["Tall", "Gentle", "Powerful"],
+    name: "Irish wolfhound: ",
+    description: ["Tall", " Gentle", " Powerful."],
   },
   {
-    name: "Irish Setter",
-    description: ["Energetic", "Elegant", "Affectionante"],
+    name: "Irish Setter: ",
+    description: ["Energetic", " Elegant", " Affectionante."],
   },
   {
-    name: "Kerry Blue Terrier",
-    description: ["Curly", "Loyal", "Spirited"],
+    name: "Kerry Blue Terrier: ",
+    description: ["Curly", " Loyal", " Spirited."],
   },
   {
-    name: "Soft Coated Wheaten Terrier",
-    description: ["Friendly", "Playful", "Hypoallergenic"],
+    name: "Soft Coated Wheaten Terrier: ",
+    description: ["Friendly", " Playful", " Hypoallergenic."],
   },
 ];
 
@@ -25,8 +25,8 @@ dogbreed.forEach(function (breed) {
   container.appendChild(h2);
 });
 
-//dogbreed.map(function(instance){//
+//dogbreed.map(function(instance){
 //return instance.name + " " + instance.description
 //});
 
-//for (let i = 0; i < arr.length; i++){//
+//for (let i = 0; i < arr.length; i++){

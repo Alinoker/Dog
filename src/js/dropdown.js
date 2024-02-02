@@ -1,16 +1,12 @@
-const button = document.getElementById("buttonlist")
+const button = document.getElementById("buttonlist");
 button.onclick = dropdown;
-console.log("buttonlist")
+console.log("buttonlist");
 
 function dropdown() {
   const dogspace = document.getElementById("breedlistfieldset");
-  if (
-    dogspace.style.display === "none" ||
-    dogspace.style.display === ""
-  ) { console.log("hello world")
+  if (dogspace.style.display === "none" || dogspace.style.display === "") {
     dogspace.style.display = "block";
   } else {
     dogspace.style.display = "none";
   }
-  console.log("buttonlist")
 }
